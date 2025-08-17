@@ -12,7 +12,7 @@ public class PairsArray1 {
   //Pairs method 
   public static void pairArray(int []arr)
   {
- 
+  int tp=0;
     for(int i=0;i<arr.length;i++)
     {
 
@@ -20,9 +20,10 @@ public class PairsArray1 {
       {
 
         System.out.print("( "+arr[i]+","+arr[j]+" )"+" ");
+        tp++;
       }
       System.out.println();
     }
-    
+    System.out.println("Total number of Pairs : "+tp);
   }
 }
