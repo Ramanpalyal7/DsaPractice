@@ -1,4 +1,4 @@
-package Arrays.FoundationAlgorithms;
+package Arrays.FoundationAlgorithms.Searching;
 
 public class BinarySearch {
   
